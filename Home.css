@@ -1,33 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html{
     font-size: 62.5%;
-}
-body{
-    background-color: black;
-    color: white;
 }
 .logo{
     width: 165px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-}
 .nav-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
     font-size: 2rem;
-
-}
-a{
-    text-decoration: none;
-    color: white;
 }
 .franchis-btn{
     border: 1px solid white;
@@ -296,6 +274,10 @@ margin: 0px 8px 0px 0px;
 }
 .app{
 margin: 10px 0px;
+}
+a{
+text-decoration: none;
+color: white;    
 }
 /* footer ended */
 .f-wrap{
